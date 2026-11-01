@@ -1,0 +1,74 @@
+/* Print stylesheet for the checklist — prints clean, one page, ink-friendly */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    background: #fff !important;
+    font-size: 11pt;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+  }
+
+  header.site-header, nav, footer, .back-link, .credit {
+    display: none !important;
+  }
+
+  article {
+    border: 1px solid #000;
+    border-radius: 0;
+    padding: 1.2rem 1.4rem;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  h1 {
+    border-bottom: 2px solid #000;
+    font-size: 17pt;
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.4rem;
+    color: #000 !important;
+  }
+
+  h2 { font-size: 13pt; margin-top: 1.4rem; color: #000 !important; }
+  h3 { font-size: 11.5pt; color: #000 !important; }
+
+  p, li { font-size: 10.5pt; }
+
+  table { font-size: 9.5pt; }
+  th { background: #e8e4d8 !important; color: #000 !important; }
+  th, td { border: 1px solid #000; padding: 0.35rem 0.5rem; }
+
+  .checklist li {
+    border: 1px solid #000;
+    background: #fff !important;
+    padding: 0.45rem 0.7rem 0.45rem 2rem;
+    break-inside: avoid;
+  }
+
+  .checklist li::before {
+    content: "☐";
+    color: #000;
+    top: 0.4rem;
+    left: 0.5rem;
+  }
+
+  .print-note {
+    font-size: 9pt;
+    font-style: italic;
+    margin-top: 1rem;
+    border-top: 1px solid #000;
+    padding-top: 0.5rem;
+  }
+
+  @page { margin: 1.5cm; }
+}
+
+@media screen {
+  .print-only { display: none; }
+}
