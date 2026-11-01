@@ -5,11 +5,11 @@ beginner-friendly ways to use AI without putting patient data at risk.
 
 ## Before you start
 
-- Ask your privacy or compliance officer whether AI use is allowed at work
-- Use only tools your employer has approved for workplace tasks
-- Never log into a personal AI account on a work device unless allowed
-- Read the tool's privacy policy — look for whether inputs are stored or used
-  for training, and whether you can opt out or delete conversations
+1. Ask your privacy or compliance officer whether AI use is allowed at work
+2. Use only tools your employer has approved for workplace tasks
+3. Never log into a personal AI account on a work device unless allowed
+4. Read the tool's privacy policy — look for whether inputs are stored or used
+   for training, and whether you can opt out or delete conversations
 
 ## While using AI
 
@@ -43,7 +43,5 @@ beginner-friendly ways to use AI without putting patient data at risk.
 - [ ] I logged out when finished
 - [ ] I asked my privacy officer when unsure
 
-## Credit
-
-Written by Dylan Asdale for Asdale Dynamics, LLC. Education only — never
-medical advice, never legal advice. See `disclaimer.md`.
+Credit: Asdale Dynamics, LLC. Education only — never medical advice, never
+legal advice. See `disclaimer.md`.

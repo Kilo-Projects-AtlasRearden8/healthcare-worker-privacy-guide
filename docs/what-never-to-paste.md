@@ -5,7 +5,7 @@ AI chatbot. Here is a concrete never-paste list for healthcare workers.
 
 ## Never paste
 
-- Patient names — first, last, or initials
+- Patient names — first, last, initials, or nicknames
 - Dates of birth, ages combined with other details, admission or discharge dates
 - Medical record numbers (MRNs), account numbers, patient IDs
 - Diagnoses, conditions, test results, lab values
@@ -13,16 +13,9 @@ AI chatbot. Here is a concrete never-paste list for healthcare workers.
 - Photos, scans, X-rays, EKGs, voice recordings, wound photos
 - Insurance info, billing codes, claim numbers
 - Anything that identifies a patient's family members, employer, or address
-- Your workplace login credentials, passwords, or badge numbers
+- Workplace login credentials, passwords, or badge numbers
 - Internal notes, shift schedules, staffing rosters, incident reports
 - Anything covered by confidentiality agreements or your employer's policy
-
-## The "small detail" trap
-
-You might think "I'll just paste the lab value, not the name." That is still
-risky. A rare diagnosis plus a shift, unit, or age can identify a patient just
-as well as a name. De-identifying by hand is hard — do not assume you did it
-right.
 
 ## Examples: safe vs. not safe
 
@@ -53,7 +46,5 @@ yourself — never reuse real ones.
 
 Reporting fast is almost always better than hiding it.
 
-## Credit
-
-Written by Dylan Asdale for Asdale Dynamics, LLC. Education only — never
-medical advice, never legal advice. See `disclaimer.md`.
+Credit: Asdale Dynamics, LLC. Education only — never medical advice, never
+legal advice. See `disclaimer.md`.
